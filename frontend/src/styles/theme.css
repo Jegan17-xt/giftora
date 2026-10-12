@@ -1,0 +1,24 @@
+/* ================================================================
+   Theme tokens
+   Defaults for the colour variables; the admin "Theme Color" setting
+   overrides them at runtime (see utils/applyTheme.js).
+   ================================================================ */
+:root {
+  --primary:      #E11D74;
+  --primary-rgb:  225,29,116;
+  --primary-dark: #710F3B;
+  --primary-light:#E08FB4;
+  --grad-start:   #E11D74;
+  --grad-end:     #E08FB4;
+  --accent:       #F59E0B;
+  --text-dark:    #270C18;
+  --text-mid:     #632C45;
+  --text-light:   #A37B8D;
+  --border:       #F2DEE7;
+  --bg-soft:      #FBF4F7;
+  --success:      #22C55E;
+  --sidebar-dark: #3F0821;
+  --sidebar-mid:  #6C0E38;
+  --font-display: 'Nunito', sans-serif;
+  --font-body:    'Nunito Sans', sans-serif;
+}
